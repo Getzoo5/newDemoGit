@@ -1,0 +1,113 @@
+.ui-page-login,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+    padding: 0px;
+    background-color: #F0F2F8
+}
+::-webkit-input-placeholder { color:#C9CACB; }
+::-moz-placeholder { color:#C9CACB; } /* firefox 19+ */
+:-ms-input-placeholder { color:#C9CACB; } /* Internet Explorer 10+ */
+:-moz-placeholder { color:#C9CACB; } /* firefox 14-18 */
+
+.mui-content{
+    background-color: #F0F2F8;
+    background: url('../assets/img/loginbg.jpg') no-repeat;
+    background-size: 100%
+}
+.mui-content{height: 100%;}
+
+.left{
+    float: left
+}
+.right{
+    float: right
+}
+.marginTop{
+    margin-top: 0!important;
+    margin-bottom: 0!important
+}
+.inner{
+    position: fixed;
+    bottom: 20%;
+}
+.inner p{
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 100%;
+    color: #fff;
+}
+.logo{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+.logo img{
+    width: 35%;
+}
+
+
+
+
+.mui-input-group::before,.mui-input-group::after{
+    border: none;
+    width: 0
+}
+.mui-input-group .mui-input-row::after{
+    background: #F1F2F2;
+    /* width: 100%; */
+    margin: 0 20px;
+    left: 0
+}
+.mui-input-group{
+    background: transparent
+}
+.mui-input-group .mui-input-row{
+    height: 50px
+}
+.marginNo{
+    margin-top: 0px!important
+}
+.marginTop{
+    margin-top: 14px!important
+}
+.left{
+    text-align: left;
+    float: left
+}
+.right{
+    text-align: right;
+    float: right
+}
+.mui-input-clear.mui-input{
+    font-size: 16px;
+    padding: 10px 30px 10px 20px;
+    color: #818181;
+    height: 50px;
+    box-sizing: border-box
+}
+/* 00A3DF */
+.mui-btn.mui-btn-block.mui-btn-primary{
+    background-color: #1FBAF3;
+    border-radius: 8px;
+    border: none
+}
+.link-area a{
+    color: #00A3DF
+}
+.bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 40px;left: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px
+}
+.bottom a{
+    color: #00A3DF
+}
+
+.mui-content-padded{
+    margin: 10px 20px
+}

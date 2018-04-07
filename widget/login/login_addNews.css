@@ -1,0 +1,80 @@
+.ui-page-login,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+    padding: 0px;
+    background-color: #F0F2F8
+}
+::-webkit-input-placeholder { color:#C9CACB; }
+::-moz-placeholder { color:#C9CACB; } /* firefox 19+ */
+:-ms-input-placeholder { color:#C9CACB; } /* Internet Explorer 10+ */
+:-moz-placeholder { color:#C9CACB; } /* firefox 14-18 */
+
+.mui-content{
+    background-color: #F0F2F8    
+}
+.mui-content{height: 100%;}
+.gradient{
+    background:linear-gradient(to right, #508CFE,#27C3FD 75%, #39B9FE);
+}
+/* 头部取消 */
+.mui-bar.mui-bar-nav{
+    color: #ffffff;
+    font-size: 16px
+}
+.mui-title{
+    color: #ffffff;
+    font-size: 16px
+}
+.quxiao{
+    float: right;
+    line-height: 44px
+}
+
+.mui-input-group::before,.mui-input-group::after{
+    border: none;
+    width: 0
+}
+.mui-input-group .mui-input-row:after{
+    border: none;
+    width: 0;
+    background: transparent
+}
+.mui-input-group .mui-input-row:first-of-type:after{
+    background: #F1F2F2;
+    width: 100%;
+    left: 0
+}
+.marginTop{
+    margin-top: 14px!important
+}
+.left{
+    text-align: left;
+    float: left
+}
+.right{
+    text-align: right;
+    float: right
+}
+.mui-input-row{
+    line-height: 40px;
+}
+.mui-input-clear.mui-input{
+    font-size: 16px;
+    padding: 10px 30px 10px 10px;
+    color: #818181
+}
+/* 00A3DF */
+.mui-btn.mui-btn-block.mui-btn-primary{
+    background-color: #1FBAF3;
+    border-radius: 8px;
+    border: none
+}
+.link-area a{
+    color: #00A3DF
+}
+.fanhui{
+    float: left;
+    line-height: 44px
+}
